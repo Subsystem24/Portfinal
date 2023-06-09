@@ -39,7 +39,7 @@
   </div>
 </div>
 <div class="bg-black w-screen">
-  <div class="mt-[1350px] ">
+  <div class="mt-[1050px] ">
     <div>
       <div class="w-[257px] ml-80">
         <p class="font-extrabold text-5xl text-white" >My Project</p>
@@ -130,52 +130,32 @@
           </section>
         </div>
       </div>
-      <div class="flex flex-wrap ml-72 mt-20 items-center space-x-28">
+      <div class="flex ml-72 mt-20 items-center space-x-28 mt-[60px] mb-[50px] ">
         <div>
-          <div class="mockup-phone">
-            <div class="camera"></div>
-            <div class="display">
-              <div class="artboard artboard-demo bg-indigo-950 phone-1">
-                <section class=" border-2 p-20 pb-24 mt-10 pt-28 rounded-3xl border-white border-b-8 border-b-white text-white w-full md:w-auto">
-                  <div class="mx-auto w-full md:w-auto lg:flex lg lg:items-center">
-                    <div class="flex items-center justify-center flex-col mx-auto max-w-3xl text-center">
-                      <%= image_tag "welcome.png", class: "w-64 h-64 animate-bounce" %>
-                      <h1 class="pb-0 bg-gradient-to-r font-suez tracking-wide from-green-300 via-blue-500 to-purple-600 bg-clip-text text-5xl font-extrabold text-transparent sm:text-5xl">
-                        QuizMate
-                      </h1>
-                      <h5 class="mx-auto mt-2 max-w-xl sm:text-xl/relaxed">
-                        Your AI study buddy!
-                      </h5>
-                      <div class="mt-3 flex flex-wrap justify-center gap-4">
-                        <%= link_to "Start Learning", "#", class: " no-underline block w-auto rounded-full border-blue-600 bg-indigo-900 px-12 py-3 font-medium text-slate-50 hover:bg-sky-700 hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto" %>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
+          <section class="bg-yellow-200 border-2 p-12 mr-10 rounded-3xl border-yellow-200 border-b-8 border-b-yellow-200 text-white w-full md:w-auto">
+            <%= image_tag "weather.png", alt: "text", class:"shadow-2xl"%>
+          </section>
         </div>
-        <div class="w-[650px]">
+        <div class="w-[630px]">
           <div class=" w-[550px] space-y-5">
             <p class="text-white text-sm font-light">
-              <span class="font-bold text-rose-600 text-2xl">Rails</span> Web Application
+              <span class="font-bold text-yellow-200 text-2xl">Javascript</span> Web API Application
             </p>
-            <p class="bg-gradient-to-r font-suez tracking-wide from-green-300 via-blue-500 to-purple-600 bg-clip-text text-5xl font-extrabold text-transparent text-6xl font-bold">QuizMate</p>
-            <p class="text-white"> The GPT API to generate quizzes and flashcards. It is designed to assist users in their studying and learning process by providing them with a convenient and interactive tool for generating quiz questions and flashcards.</p>
+            <p class="bg-gradient-to-r font-suez tracking-wide from-green-300 via-blue-500 to-purple-600 bg-clip-text text-5xl font-extrabold text-transparent text-6xl font-bold">Weathering</p>
+            <p class="text-white"> Serves as a platform where doctors can easily find and book operation rooms for medical procedures, while hospitals or organizations can efficiently rent out their available rooms.</p>
           </div>
-          <div class=" flex flex-wrap space-x-4 mt-5 items-center">
-            <a href="https://www.quizmate.tech/" target="_blank">
+          <div class=" flex space-x-4 mt-5 items-center">
+            <a href="https://github.com/Subsystem24/weatheringapp" target="_blank">
               <button class="glow-on-hover" type="button">Check It Out!</button>
             </a>
             <div class="icon2 bg-black w-[40px] h-[40px] flex justify-center items-center rounded-full">
-              <a href="https://github.com/Subsystem24/QuizmatePhuvit" target="_blank">
+              <a href="https://github.com/Subsystem24/weatheringapp" target="_blank">
                 <svg fill="#ffffff" width="28px" height="44px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9992 5.95846C21.0087 6.565 20.9333 7.32649 20.8658 7.8807C20.8395 8.09686 20.8037 8.27676 20.7653 8.42453C21.6227 10.01 22 11.9174 22 14C22 16.4684 20.8127 18.501 18.9638 19.8871C17.1319 21.2605 14.6606 22 12 22C9.33939 22 6.86809 21.2605 5.0362 19.8871C3.18727 18.501 2 16.4684 2 14C2 11.9174 2.37732 10.01 3.23472 8.42452C3.19631 8.27676 3.16055 8.09685 3.13422 7.8807C3.06673 7.32649 2.99133 6.565 3.00081 5.95846C3.01149 5.27506 3.10082 4.5917 3.19988 3.91379C3.24569 3.60028 3.31843 3.30547 3.65883 3.11917C4.00655 2.92886 4.37274 2.99981 4.73398 3.1021C5.95247 3.44713 7.09487 3.93108 8.16803 4.51287C9.2995 4.17287 10.5783 4 12 4C13.4217 4 14.7005 4.17287 15.832 4.51287C16.9051 3.93108 18.0475 3.44713 19.266 3.1021C19.6273 2.99981 19.9935 2.92886 20.3412 3.11917C20.6816 3.30547 20.7543 3.60028 20.8001 3.91379C20.8992 4.5917 20.9885 5.27506 20.9992 5.95846ZM20 14C20 12.3128 19.6122 10 17.5 10C16.5478 10 15.6474 10.2502 14.7474 10.5004C13.8482 10.7502 12.9495 11 12 11C11.0505 11 10.1518 10.7502 9.25263 10.5004C8.35261 10.2502 7.45216 10 6.5 10C4.39379 10 4 12.3197 4 14C4 15.7636 4.82745 17.231 6.23588 18.2869C7.66135 19.3556 9.69005 20 12 20C14.3099 20 16.3386 19.3555 17.7641 18.2869C19.1726 17.231 20 15.7636 20 14ZM10 14.5C10 15.8807 9.32843 17 8.5 17C7.67157 17 7 15.8807 7 14.5C7 13.1193 7.67157 12 8.5 12C9.32843 12 10 13.1193 10 14.5ZM15.5 17C16.3284 17 17 15.8807 17 14.5C17 13.1193 16.3284 12 15.5 12C14.6716 12 14 13.1193 14 14.5C14 15.8807 14.6716 17 15.5 17Z"></path> </g></svg>
               </a>
             </div>
             <div class="space-y-1">
-              <p class="text-xs text-white font-extralight">Backend 80% (Ruby/Rails)</p>
-              <p class="text-xs text-white font-extralight">Frontend 20% (HTML/TailwindCSS/JS)</p>
+              <p class="text-xs text-white font-extralight">Backend 95% (Javascript/API fetching)</p>
+              <p class="text-xs text-white font-extralight">Frontend 5% (HTML/CSS/Bootstrap)</p>
             </div>
           </div>
         </div>
